@@ -52,25 +52,46 @@ margin:8px auto;
 display:table-cell;
 vertical-align:middle;
 }
-.menu{
-list-style:none;
-position:absolute;
-top:10px;
-right:30px;
+.menu
+{
+background:#2bbab3;
+position:fixed;
+top:0px;
 z-index:10;
-cursor:pointer;
+margin-top:0px;
+width:100%;
 }
 .links
 {
-float:left;
-padding-top:5px;
-padding-left:9px;
-padding-right:9px;
-padding-bottom:5px;
+display:inline;
+padding-left:33px;
+padding-right:25px;
 font-family:'Arial';
-font:size 20px;
+font-size:20px;
 }
 a
 {
 text-decoration:none;
+}
+.links:hover
+{
+font-size:25px;
+text-decoration:underline;
+}
+#writings a
+{
+text-decoration:underline !important;
+color:green !important;
+}
+#contact
+{
+background:lightgray;
+}
+.contact_1 h3
+{
+display:inline;
+}
+#contact iframe
+{
+width:100%;
 }
